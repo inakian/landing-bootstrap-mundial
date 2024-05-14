@@ -7,3 +7,52 @@
 body {
   color: white;
 }
+
+/* Estilos para dispositivos móviles en general */
+@media only screen and (max-width: 767px) {
+  /* Ajusta el ancho del contenido al 100% */
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  /* Ajusta el tamaño de fuente */
+  body {
+    font-size: 16px;
+  }
+
+  /* Ajusta el tamaño de los encabezados */
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  /* Ajusta el tamaño de las imágenes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Estilos para dispositivos móviles en orientación vertical */
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+  /* Estilos específicos para orientación vertical */
+}
+
+/* Estilos para dispositivos móviles en orientación horizontal */
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  /* Estilos específicos para orientación horizontal */
+}
+
+/* Estilos para dispositivos móviles con una resolución específica */
+@media only screen and (max-width: 767px) and (max-resolution: 192dpi) {
+  /* Estilos específicos para resoluciones bajas */
+}
+
+@media only screen and (max-width: 767px) and (min-resolution: 300dpi) {
+  /* Estilos específicos para resoluciones altas */
+}
