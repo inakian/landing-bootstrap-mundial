@@ -8,6 +8,14 @@ body {
   color: white;
 }
 
+#cards {
+  color: gold;
+}
+
+.card {
+  color: white;
+}
+
 /* Estilos para dispositivos móviles en general */
 @media only screen and (max-width: 767px) {
   /* Ajusta el ancho del contenido al 100% */
